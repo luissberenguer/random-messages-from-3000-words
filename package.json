@@ -1,0 +1,16 @@
+{
+  "name": "random-message",
+  "version": "1.0.0",
+  "description": "generador de mensajes random",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Luis Berenguer <luis01developer@gmail.com>",
+  "license": "MIT"
+}
