@@ -1,5 +1,5 @@
 {
-  "name": "random-message",
+  "name": "random-messages",
   "version": "1.0.0",
   "description": "generador de mensajes random",
   "main": "src/index.js",
