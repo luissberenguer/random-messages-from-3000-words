@@ -1,6 +1,6 @@
 const commonWords = require('./commonWords');
 
-const randomMsg = (wordsNum) => {
+const randomMsg = (wordsNum = 10) => {
     let message = ''
 
     for (let i = 0; i < wordsNum; i++ ) {
@@ -8,9 +8,11 @@ const randomMsg = (wordsNum) => {
         message = message + commonWords[randomNum] + ' ';
     } 
 
+    console.log(message);
     return message;
 }
 
 const num = process.argv[2]
+randomMsg(num);
 
-console.log(randomMsg(num));
+module.exports = { randomMsg };
