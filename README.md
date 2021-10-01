@@ -10,8 +10,10 @@ npm install -g random-messages-from-3000-words
 
 ## Usage
 
+To get 10 random words type to your CLI:
+
 ```bash
-random-msg
+npx random-msg
 ```
 
 ## Contributing
@@ -21,8 +23,3 @@ If someone wants to add or improve something, I invite you to collaborate direct
 ## License
 
 random-messages-from-3000-words is released under the [MIT License](https://opensource.org/licenses/MIT).
-
-```javascript
-const randomMessasges = require('random-messages-from-3000-words');
-const myWords = randomMessasges.randomMsg(10); // You can add tne nº of words you want
-```

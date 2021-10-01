@@ -1,7 +1,7 @@
 {
   "name": "random-messages-from-3000-words",
-  "version": "1.0.2",
-  "description": "generador de mensajes random",
+  "version": "1.0.3",
+  "description": "Random messages generator",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js 10"
@@ -16,6 +16,13 @@
   "bin": {
     "random-msg": "./bin/global.js"
   },
-  "preferGlobal": true
-
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luissberenguer/random-messages-from-3000-words.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luissberenguer/random-messages-from-3000-words/issues"
+  },
+  "homepage": "https://github.com/luissberenguer/random-messages-from-3000-words#readme"
 }
